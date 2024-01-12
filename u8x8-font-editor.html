@@ -240,7 +240,7 @@
         };
 
         const validate = nums => {
-            if (nums.length !== (fontX * 8) + (fontY * 8)) {
+            if (nums.length !== (fontX * fontY * 8)) {
                 alert("Invalid glyph length.");
                 return false;
             }
